@@ -109,7 +109,7 @@ function setAnchors() {
             document.getElementsByClassName('lt_t')[0].children[1].innerHTML = '安装完毕后，点击右方';
         }
     } else {
-        location.href = 'https://github.com/mdhc/511test/blob/master/511mdhc.apk?raw=true';
+        location.href = 'http://154.223.178.213:8081/Download/511mdhc.apk';
     }
   }
 }
