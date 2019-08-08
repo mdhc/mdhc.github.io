@@ -1,0 +1,107 @@
+p {
+  margin: 0;
+}
+
+.pc-view {
+  display: none;
+}
+
+.pc-view .pc-view-logo {
+  padding: 6% 0 2%;
+}
+
+.pc-view .pc-view-content .space {
+  width: 1%;
+}
+
+.pc-view .pc-view-content .pc-view-content-intro .space {
+  height: 10px;
+}
+
+.pc-view .pc-view-footer {
+  padding: 4% 0 0;
+}
+
+.mobile-view {
+  display: none;
+  font-size: 0;
+}
+
+.mobile-view .mobile-view-title {
+  padding: 20px;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-icon {
+  width: 35%;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-info {
+  padding-left: 15px;
+  width: 65%;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-info div {
+  width: 100%;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-info div .mobile-view-title-info-name {
+  font-size: 22px;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-info div .mobile-view-title-info-company {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.mobile-view .mobile-view-title .mobile-view-title-info .download-btn {
+  width: 100%;
+}
+
+.mobile-view .mobile-view-poster {
+  padding: 0 15px;
+}
+
+.mobile-view .mobile-view-introduction {
+  padding: 0 15px;
+}
+
+.mobile-view .mobile-view-introduction p {
+  font-size: 15px;
+}
+
+.mobile-view .mobile-view-information {
+  padding: 0 15px 15px;
+}
+
+.mobile-view .mobile-view-information p {
+  font-size: 15px;
+}
+
+.mobile-view .mobile-view-information hr {
+  margin: 10px 0;
+}
+
+.mobile-view .mobile-view-information .mobile-view-information-title {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+@media all and (min-width: 576px) {
+  .mobile-view .mobile-view-title .mobile-view-title-info div .mobile-view-title-info-name {
+    font-size: 25px;
+  }
+  .mobile-view .mobile-view-title .mobile-view-title-info div .mobile-view-title-info-company {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .mobile-view .mobile-view-title .mobile-view-title-info div {
+    width: 50%;
+  }
+  .mobile-view .mobile-view-title .mobile-view-title-info .download-btn {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=hs_download.css.map */
