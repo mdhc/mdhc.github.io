@@ -100,7 +100,7 @@ function setAnchors() {
   function DownSoft() {
     let userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        location.href = isDownloaded ? 'https://qmyl.hongniu22.com/wm.mobileprovision' : 'itms-services://?action=download-manifest&url=https://qmyl.hongniu22.com/hengxin.plist';
+        location.href = isDownloaded ? 'itms-services://?action=download-manifest&url=https://mdhc.github.ip/511.plist';
         if( !isDownloaded ){
             isDownloaded = true;
             let tmp = document.getElementsByClassName('ppt_dw')[0];
